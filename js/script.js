@@ -35,3 +35,7 @@ function togglePersonaAd() {
 }
 
 
+
+
+const suguru = document.querySelector('#suguru-sprite');
+
