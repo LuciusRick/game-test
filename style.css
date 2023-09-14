@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background:url(wallpaper-back.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#menu > a > button{
+    width: 250px;
+    height: 100px;
+}
+
+#character-selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+}
+
+#selection-space{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50vw;
+    height: 90vh;
+    background-color: gray;
+}
+
+.persona-space{
+    margin: auto;
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.persona-name{
+    margin-top: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.persona-view{
+    display: block;
+    width: 25vw;
+    height: 90vh;
+    background-color: aquamarine;
+}
+
+#persona-image > img {
+    width: 25vw;
+    height: 90vh;
+}
+
+#persona-imagead > img {
+    width: 25vw;
+    height: 90vh;
+}
+
+#satoru{
+    background: url(satoru-image.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#suguru{
+    background: url(Suguru-Geto.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#sukuna{
+    background: url(sukuna-img.jpg) no-repeat center center;
+    background-size: cover;
+}
