@@ -4,22 +4,6 @@ let opponentPlayer;
 let currentPlayerHealth = 100;
 let opponentPlayerHealth = 100;
 
-function mostrarPersonaImage() {
-    // Obtém a referência para a div "persona-image"
-    const personaImageDiv = document.getElementById("persona-image");
-
-    // Altera o estilo da div "persona-image" para "block"
-    personaImageDiv.style.display = "block";
-}
-
-function mostrarPersona() {
-    // Obtém a referência para a div "persona-image"
-    const personaImageDiv = document.getElementById("persona-imagead");
-
-    // Altera o estilo da div "persona-image" para "block"
-    personaImageDiv.style.display = "block";
-}
-
 function togglePersonaImage() {
     // Obtém a referência para a div "persona-image"
     const personaImageDiv = document.getElementById("persona-image");

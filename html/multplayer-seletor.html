@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Seleçao de Persona</title>
+</head>
+<body>
+    <div id="character-selection">
+        <!-- Aqui você pode adicionar imagens dos personagens e botões de seleção -->
+        <div class="persona-view">
+            <div id="persona-image" style="display: none;">
+              <img src="satoru-image.jpeg" alt="Persona Image">
+            </div>
+        </div>
+        <div id="selection-space">
+            <div class="persona-space" id="satoru" onclick="togglePersonaImage()"><p class="persona-name">Satoru Gojo</p></div>
+            <div class="persona-space" id="suguru" onclick="togglePersonaAd()"><p class="persona-name">Suguru Geto</p></div>
+            <div class="persona-space" id="sukuna"><p class="persona-name"> Ryomen Sukuna</p></div>
+            <div class="persona-space"></div>
+            <div class="persona-space"></div>
+            <div class="persona-space"></div>
+            <div class="persona-space"></div>
+            <div class="persona-space"></div>
+            <div class="persona-space"></div>
+        </div>
+        <div class="persona-view">
+            <div id="persona-imagead" style="display: none;">
+                <img src="Suguru-Geto.jpeg" alt="Persona Image">
+            </div>
+        </div>
+        <div id="play-game" onclick="startGame()">
+            <a href="game.html"><button>Play</button></a>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

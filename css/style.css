@@ -13,7 +13,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background:url(wallpaper-back.jpeg) no-repeat center center;
+    background:url(../img/wallpaper-back.jpeg) no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
@@ -79,16 +79,16 @@ body{
 }
 
 #satoru{
-    background: url(satoru-image.jpeg) no-repeat center center;
+    background: url(../img/satoru-image.jpeg) no-repeat center center;
     background-size: cover;
 }
 
 #suguru{
-    background: url(Suguru-Geto.jpeg) no-repeat center center;
+    background: url(../img/Suguru-Geto.jpeg) no-repeat center center;
     background-size: cover;
 }
 
 #sukuna{
-    background: url(sukuna-img.jpg) no-repeat center center;
+    background: url(../img/sukuna-img.jpg) no-repeat center center;
     background-size: cover;
 }
