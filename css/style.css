@@ -13,7 +13,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background:url(../img/wallpaper-back.jpeg) no-repeat center center;
+    background:url(../img/bg/wallpaper-back.jpeg) no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
@@ -79,16 +79,42 @@ body{
 }
 
 #satoru{
-    background: url(../img/satoru-image.jpeg) no-repeat center center;
+    background: url(../img/bg/satoru-image.jpeg) no-repeat center center;
     background-size: cover;
 }
 
 #suguru{
-    background: url(../img/Suguru-Geto.jpeg) no-repeat center center;
+    background: url(../img/bg/Suguru-Geto.jpeg) no-repeat center center;
     background-size: cover;
 }
 
 #sukuna{
-    background: url(../img/sukuna-img.jpg) no-repeat center center;
+    background: url(../img/bg/sukuna-img.jpg) no-repeat center center;
     background-size: cover;
+}
+
+#main-menu{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#game-screen{
+    width: 95vw;
+    height: 650px;
+    border: 1px solid black;
+    background: url(../img/bg/fukuna-misushi-background.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+#player01 > img {
+    position: absolute;
+    left: 10px;
+    bottom: 40px;
+    width: 200px;
+    height: 250px;
+    color: red;
 }
