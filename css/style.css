@@ -110,11 +110,12 @@ body{
 
 }
 
-#player01 > img {
+#player{
     position: absolute;
-    left: 10px;
-    bottom: 40px;
-    width: 200px;
-    height: 250px;
-    color: red;
+    
+}
+
+#player > img {
+    width: 400px;
+    height: 300px;
 }
