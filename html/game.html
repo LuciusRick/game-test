@@ -37,9 +37,9 @@
       jumping = true;
       let jumpHeight = 0;
       const jumpInterval = setInterval(() => {
-        jumpHeight += 5;
+        jumpHeight += 50;
         personagem.style.bottom = jumpHeight + "px";
-        if (jumpHeight >= 100) {
+        if (jumpHeight >= 10) {
           clearInterval(jumpInterval);
           const fallInterval = setInterval(() => {
             jumpHeight -= 5;
