@@ -47,81 +47,15 @@ body {
     background-color: darkgray;
 }
 
-.screen-selection{
-    width: 100vw;
-    height: 94vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: black;
-}
 
-#character-selection{
-    padding: 10px;
-    width: 650px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    background-color: black;
-}
 
-.character{
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    border-radius: 5px;
-}
 
-#persona-image > img{
-    width: 250px;
-    height: 250px;
-}
 
-.persona-view{
-    display: block;
-    width: 350px;
-    height: 94vh;
-    background-color: rgb(59, 48, 90);
-}
 
-.persona-view > img{
-    display: block;
-    width: 350px;
-    height: 94vh;
-}
 
-#play-game {
-    position: absolute;
-    left: 650px;
-    top: 600px;
-    width: 100px;
-    height: 30px;
-}
 
-#play-game:hover {
-    color: white;
-    font-weight: bolder;
-    text-shadow: 1px 1px 1px black;
-    background-color: gray;
-}
 
-#satoro{
-    background: url(../img/bg/satoru-image.jpeg) no-repeat center center;
-    background-size: cover;
-}
 
-#suguru{
-    background: url(../img/bg/Suguru-Geto.jpeg) no-repeat center center;
-    background-size: cover;
-}
-
-#sukuna{
-    background: url(../img/bg/sukuna-img.jpg) no-repeat center center;
-    background-size: cover;
-}
 
 #main-menu{
     width: 100vw;

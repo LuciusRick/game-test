@@ -53,27 +53,3 @@ const personagem = document.getElementById("player");
     } 
   });
 
-  // Função para selecionar um personagem
-  function selectCharacter(characterDiv) {
-    const characterName = characterDiv.getAttribute("data-character");
-
-    // Verifica qual jogador está selecionando o personagem
-    if (!player1SelectedCharacter) {
-        player1SelectedCharacter = characterName;
-        document.getElementById("player1-character").src = `${characterName}-full-body.jpg`;
-    } else if (!player2SelectedCharacter) {
-        player2SelectedCharacter = characterName;
-        document.getElementById("player2-character").src = `${characterName}-full-body.jpg`;
-    }
-}
-
-// Adicione um ouvinte de eventos a cada div de personagem
-const characterDivs = document.querySelectorAll(".character");
-
-characterDivs.forEach((characterDiv) => {
-    characterDiv.addEventListener("click", () => {
-        selectCharacter(characterDiv);
-    });
-});
-
-
