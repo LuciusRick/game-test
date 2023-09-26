@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas_animate" width="500" height="500"></canvas>
+    <script>
+      var canvas = document.getElementById('canvas_animacao')
+        var context = canvas.getContext('2d')
+
+        var suguru = new Image()
+        suguru.src = 'img/suguru-base.png'
+
+        suguru.onload = function(){
+            context.desenharPersonagem(suguru, 50, 50, 100, 100)
+        }
+
+        var posicao = 0 
+        desenharPersonagem()
+
+        function desenharPersonagem(){
+            context.clearReact(0, 0, canvas.width, canvas.height)
+            context.suguru(posicao, 100, 30, 50)
+        }
+
+        function atualizarPosicao() {
+            suguru.style.left = positionX + "px";
+            suguru.style.right = positionY + "px";
+        }
+
+        function moverParaDireita() {
+            positionX += 20;
+            atualizarPosicao();
+        }
+
+        function moverParaEsquerda() {
+            positionX -= 20;
+            atualizarPosicao();
+        }
+    </script>
+</body>
+</html>

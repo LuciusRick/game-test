@@ -3,37 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="script.js"></script>
     <title>Seleçao de Persona</title>
 </head>
 <body>
-    <div id="character-selection">
-        <!-- Aqui você pode adicionar imagens dos personagens e botões de seleção -->
-        <div class="persona-view">
-            <div id="persona-image" style="display: none;">
-              <img src="satoru-image.jpeg" alt="Persona Image">
+    <a href="game.html"><button id="play-game" onclick="startGame()">Play</button></a>
+    <div class="screen-selection">
+        <div id="player1-selection" class="persona-view">
+            <img id="player1-character" src="../img/bg/satoru-image.jpeg" alt="Player 1 Character">
+        </div>
+            <div id="character-selection">
+                <div class="character" data-character="character1" id="satoro">
+                    
+                </div>
+                <div class="character" data-character="character2" id="suguru">
+                    <img src="../img/suguru-attack.gif" alt="suguru-gif">
+                </div>
+                <div class="character" data-character="character3" id="sukuna">
+                    <img src="character3-full-body.jpg" alt="Character 3" id="persona-image">
+                </div>
+                <div class="character" data-character="character4" >
+                    <img src="character4-full-body.jpg" alt="Character 4" id="persona-image">
+                </div>
+                
             </div>
+            
+        <div id="player2-selection" class="persona-view">
+            <img id="player2-character" src="../img/bg/Suguru-Geto.jpeg" alt="Player 2 Character">
         </div>
-        <div id="selection-space">
-            <div class="persona-space" id="satoru" onclick="togglePersonaImage()"><p class="persona-name">Satoru Gojo</p></div>
-            <div class="persona-space" id="suguru" onclick="togglePersonaAd()"><p class="persona-name">Suguru Geto</p></div>
-            <div class="persona-space" id="sukuna"><p class="persona-name"> Ryomen Sukuna</p></div>
-            <div class="persona-space"></div>
-            <div class="persona-space"></div>
-            <div class="persona-space"></div>
-            <div class="persona-space"></div>
-            <div class="persona-space"></div>
-            <div class="persona-space"></div>
-        </div>
-        <div class="persona-view">
-            <div id="persona-imagead" style="display: none;">
-                <img src="Suguru-Geto.jpeg" alt="Persona Image">
-            </div>
-        </div>
-        <div id="play-game" onclick="startGame()">
-            <button>Play</button>
-        </div>
+        <a href="game.html"><button id="play-game" onclick="startGame()">Play</button></a>
     </div>
-    <script src="script.js"></script>
+    <footer>
+        <div id="contatos">
+            <p class="footer-title">Contato</p>
+            <a href="https://github.com/LuciusRick" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/lucius-rick-dev/" target="_blank">Linkedin</a>
+        </div>
+        
+        <div id="anotthergames">
+            <p class="footer-title">Outros Games</p>
+            <a href="#" target="_blank">Web Anime Battle</a>
+            <a href="#" target="_blank">Exorcising Curses - Adventure of Getou</a>
+        </div>
+        <div id="div-tag">
+            <p>Game Web desenvolvido por Lucius</p>
+        </div>
+    </footer>
 </body>
 </html>
